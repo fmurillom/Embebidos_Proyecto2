@@ -1,0 +1,582 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/fmuri/Documents/TEC/XI/Embebidos/software/hola_mundo/obj/default/runtime/sim/mentor
+vsystema_CPU
+!s110 1591590369
+!i10b 1
+!s100 1COkC_IUQDDH4@bm7`6VA2
+IIA`K=`0YYHKdWS6U1_U6Q1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1591588268
+8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v
+FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v
+L0 9
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1591590369.000000
+!s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v|
+!s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v|-work|CPU|
+!i113 1
+o-work CPU
+Z3 tCvgOpt 0
+nsystema_@c@p@u
+vsystema_CPU_cpu
+Z4 !s110 1591590366
+!i10b 1
+!s100 M5kdV=4oN8OGVefO:e;503
+IOELUNm?baN=WGDJ=31I642
+R1
+R0
+Z5 w1591588293
+Z6 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v
+Z7 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v
+L0 2834
+R2
+r1
+!s85 0
+31
+Z8 !s108 1591590366.000000
+Z9 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v|
+Z10 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v|-work|cpu|
+!i113 1
+Z11 o-work cpu
+R3
+nsystema_@c@p@u_cpu
+vsystema_CPU_cpu_debug_slave_sysclk
+Z12 !s110 1591590367
+!i10b 1
+!s100 4Mf6WKc<W7PC3Xo9FVnQk0
+IcF_Ld]YjF@:DV?3_9Xz033
+R1
+R0
+R5
+8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v
+FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v
+Z13 L0 21
+R2
+r1
+!s85 0
+31
+Z14 !s108 1591590367.000000
+!s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_debug_slave_sysclk
+vsystema_CPU_cpu_debug_slave_tck
+R12
+!i10b 1
+!s100 ;OfhHE4HI6@ceWk4_lhRk2
+IWF5P6nA7@dfR6H@>`jMiR0
+R1
+R0
+R5
+8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v
+FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v
+R13
+R2
+r1
+!s85 0
+31
+R14
+!s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_debug_slave_tck
+vsystema_CPU_cpu_debug_slave_wrapper
+R12
+!i10b 1
+!s100 iJ4QeS31ZZ3?`hLZPbc0;3
+ILa<R0eR^H2VUP6^aeLk<A3
+R1
+R0
+R5
+8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v
+FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v
+R13
+R2
+r1
+!s85 0
+31
+R14
+!s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_debug_slave_wrapper
+vsystema_CPU_cpu_nios2_avalon_reg
+R4
+!i10b 1
+!s100 @b?oM3AIc4OzPZa7h15W53
+IQGT[`C7IY1DfXmc@32?]O3
+R1
+R0
+R5
+R6
+R7
+L0 2023
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_avalon_reg
+vsystema_CPU_cpu_nios2_oci
+R4
+!i10b 1
+!s100 9;]nFMZbLQ3g@;@KChYag1
+IMY1hTGB9ii;oZPTbGjDzl1
+R1
+R0
+R5
+R6
+R7
+L0 2362
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci
+vsystema_CPU_cpu_nios2_oci_break
+R4
+!i10b 1
+!s100 8?B120?<2Y3a5>Fk3I^nd3
+I>3nm;RV2A4U<zVidcgV^G0
+R1
+R0
+R5
+R6
+R7
+L0 295
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_break
+vsystema_CPU_cpu_nios2_oci_compute_input_tm_cnt
+R4
+!i10b 1
+!s100 Ra3@2RdBg@=hD=J94Ij]00
+Iae3[3TNn3nOKlTK8Rc`9g3
+R1
+R0
+R5
+R6
+R7
+L0 1265
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_compute_input_tm_cnt
+vsystema_CPU_cpu_nios2_oci_dbrk
+R4
+!i10b 1
+!s100 Be9;o4JVZzY>H8>H14o@h2
+I<T0aCM6YhJ4fllhY5J7^71
+R1
+R0
+R5
+R6
+R7
+L0 795
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_dbrk
+vsystema_CPU_cpu_nios2_oci_debug
+R4
+!i10b 1
+!s100 VR3X3Q=f^iY6[iQL?mLN:3
+IL>1k:?6T7kHH4NJS=60`i2
+R1
+R0
+R5
+R6
+R7
+L0 153
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_debug
+vsystema_CPU_cpu_nios2_oci_dtrace
+R4
+!i10b 1
+!s100 C;5?>jcFYYdD6Vnkogg_A1
+IA6Wc@cjocI^2dJe4eeThf1
+R1
+R0
+R5
+R6
+R7
+L0 1183
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_dtrace
+vsystema_CPU_cpu_nios2_oci_fifo
+R4
+!i10b 1
+!s100 >6;hKCmbEilImM59]g<c02
+ICQXkbnhn@1cg[n[]NhaJ`0
+R1
+R0
+R5
+R6
+R7
+L0 1427
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_fifo
+vsystema_CPU_cpu_nios2_oci_fifo_cnt_inc
+R4
+!i10b 1
+!s100 @nlmOIKa`?H5i<W4@;@3O3
+IQNJVOzJTH8bWDPWfdf1o22
+R1
+R0
+R5
+R6
+R7
+L0 1380
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_fifo_cnt_inc
+vsystema_CPU_cpu_nios2_oci_fifo_wrptr_inc
+R4
+!i10b 1
+!s100 IUNjlnodmO]9_<R`^5QF72
+IHO2m:IT_ZE]`en_iV9VmU2
+R1
+R0
+R5
+R6
+R7
+L0 1337
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_fifo_wrptr_inc
+vsystema_CPU_cpu_nios2_oci_im
+R4
+!i10b 1
+!s100 j679aRl;a=Jji<Xe]Z@c50
+IPOiaPY0<l@XXiZ2aN?_8O3
+R1
+R0
+R5
+R6
+R7
+L0 1936
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_im
+vsystema_CPU_cpu_nios2_oci_itrace
+R4
+!i10b 1
+!s100 D^ghczh>_bWH:fF[o?;XL2
+I5X74nV6:RK^nDHF^fk>U[3
+R1
+R0
+R5
+R6
+R7
+L0 982
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_itrace
+vsystema_CPU_cpu_nios2_oci_pib
+R4
+!i10b 1
+!s100 ff<DnZjgY17mdSb>n^BAI0
+IGVAfld7XWOY=i9BcH5FEP3
+R1
+R0
+R5
+R6
+R7
+L0 1913
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_pib
+vsystema_CPU_cpu_nios2_oci_td_mode
+R4
+!i10b 1
+!s100 BKag?Jbz36Mnz8aA9ELWL2
+IBaU4d5nYMjZ8=<6R8L;KY2
+R1
+R0
+R5
+R6
+R7
+L0 1115
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_td_mode
+vsystema_CPU_cpu_nios2_oci_xbrk
+R4
+!i10b 1
+!s100 0QnDWlN953[`YliT=PHXZ2
+I:a=VRc@`fIHl[I:WBlbOd0
+R1
+R0
+R5
+R6
+R7
+L0 588
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_oci_xbrk
+vsystema_CPU_cpu_nios2_ocimem
+R4
+!i10b 1
+!s100 l3I<njbYMP7K8BlIE2[ik1
+Ig00lGUmQGJ8fJ3;X_9R9M3
+R1
+R0
+R5
+R6
+R7
+L0 2181
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_ocimem
+vsystema_CPU_cpu_nios2_performance_monitors
+R4
+!i10b 1
+!s100 [=d@Q^?k_5`[^0GZ:@z7?0
+Ig6<Sm_83>B7e6PcB^_BV]0
+R1
+R0
+R5
+R6
+R7
+L0 2006
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_nios2_performance_monitors
+vsystema_CPU_cpu_ociram_sp_ram_module
+R4
+!i10b 1
+!s100 P]kGK;kjmnP5njVA[Cjgh2
+I=8ZTnK9a=S5Nk:l^d_=WK0
+R1
+R0
+R5
+R6
+R7
+L0 2116
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_ociram_sp_ram_module
+vsystema_CPU_cpu_register_bank_a_module
+R4
+!i10b 1
+!s100 6?9^U69;4M:;f44h10:2l0
+I2R5T=R21EUQHdjB8HO_zW2
+R1
+R0
+R5
+R6
+R7
+R13
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_register_bank_a_module
+vsystema_CPU_cpu_register_bank_b_module
+R4
+!i10b 1
+!s100 `TJIof4GzznmHW_5`<Iig3
+I=CWH@DPZO1>@K0M[HWeeZ3
+R1
+R0
+R5
+R6
+R7
+L0 87
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_register_bank_b_module
+vsystema_CPU_cpu_test_bench
+R12
+!i10b 1
+!s100 QOnFXBg_0heKPA7d0;DXS2
+IU`WL4PU:4EQRW:A]6XK^?2
+R1
+R0
+R5
+8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v
+FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v
+R13
+R2
+r1
+!s85 0
+31
+R14
+!s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v|
+!s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v|-work|cpu|
+!i113 1
+R11
+R3
+nsystema_@c@p@u_cpu_test_bench

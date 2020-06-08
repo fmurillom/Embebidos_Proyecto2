@@ -1,0 +1,306 @@
+Info: Starting: Create testbench Platform Designer system
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema.ipx
+Info: qsys-generate D:\fmuri\Documents\TEC\XI\Embebidos\systema.qsys --testbench=STANDARD --output-directory=D:\fmuri\Documents\TEC\XI\Embebidos --family="Cyclone V" --part=5CEBA2F17A7
+Progress: Loading Embebidos/systema.qsys
+Progress: Reading input file
+Progress: Adding CLK [clock_source 18.1]
+Progress: Parameterizing module CLK
+Progress: Adding CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module CPU
+Progress: Adding RAM [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module RAM
+Progress: Adding UART [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module UART
+Progress: Adding btn_mode [altera_avalon_pio 18.1]
+Progress: Parameterizing module btn_mode
+Progress: Adding btn_op [altera_avalon_pio 18.1]
+Progress: Parameterizing module btn_op
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: systema.UART: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: systema.btn_mode: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: systema.btn_op: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx
+Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index D:\fmuri\Documents\TEC\XI\Embebidos\systema\testbench\systema.ipx
+Progress: Loading Embebidos/systema.qsys
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/* matched 8 files in 0.00 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/ip/**/* matched 0 files in 0.00 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/*/* matched 21 files in 0.00 seconds
+Info: D:\fmuri\Documents\TEC\XI\Embebidos\systema\testbench\systema.ipx described 0 plugins, 3 paths, in 0.00 seconds
+Progress: Loading testbench/systema_tb.qsys
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/* matched 12 files in 0.01 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/*/* matched 9 files in 0.00 seconds
+Info: C:/Users/fmuri/.altera.quartus/ip/18.1/**/* matched 0 files in 0.00 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index D:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
+Info: D:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0.11 seconds
+Info: D:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0.11 seconds
+Info: D:/intelfpga_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index D:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
+Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0.01 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0.01 seconds
+Info: Reading index D:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
+Info: D:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: D:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.14 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.14 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: systema
+Info: TB_Gen: System design is: systema
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property btn_op EXPORT_OF
+Info: get_instance_property btn_op CLASS_NAME
+Info: get_instance_assignment btn_op testbench.partner.map.external_connection
+Info: get_interface_property button_mode EXPORT_OF
+Info: get_instance_property btn_mode CLASS_NAME
+Info: get_instance_assignment btn_mode testbench.partner.map.external_connection
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property CLK CLASS_NAME
+Info: get_instance_assignment CLK testbench.partner.map.clk_in
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property CLK CLASS_NAME
+Info: get_instance_assignment CLK testbench.partner.map.clk_in_reset
+Info: send_message Info TB_Gen: Creating testbench system : systema_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : systema_tb with all standard BFMs
+Info: create_system systema_tb
+Info: add_instance systema_inst systema 
+Info: set_use_testbench_naming_pattern true systema
+Info: get_instance_interfaces systema_inst
+Info: get_instance_interface_property systema_inst btn_op CLASS_NAME
+Info: get_instance_interface_property systema_inst button_mode CLASS_NAME
+Info: get_instance_interface_property systema_inst clk CLASS_NAME
+Info: get_instance_interface_property systema_inst reset CLASS_NAME
+Info: get_instance_interface_property systema_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property systema_inst clk CLASS_NAME
+Info: add_instance systema_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property systema_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value systema_inst clk clockRate
+Info: set_instance_parameter_value systema_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value systema_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property systema_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property systema_inst clk CLASS_NAME
+Info: get_instance_interfaces systema_inst_clk_bfm
+Info: get_instance_interface_property systema_inst_clk_bfm clk CLASS_NAME
+Info: add_connection systema_inst_clk_bfm.clk systema_inst.clk
+Info: get_instance_interface_property systema_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property systema_inst reset CLASS_NAME
+Info: add_instance systema_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property systema_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports systema_inst reset
+Info: get_instance_interface_port_property systema_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property systema_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value systema_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value systema_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property systema_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces systema_inst_reset_bfm
+Info: get_instance_interface_property systema_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property systema_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property systema_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value systema_inst reset associatedClock
+Info: get_instance_interfaces systema_inst_clk_bfm
+Info: get_instance_interface_property systema_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: systema_inst_reset_bfm is not associated to any clock; connecting systema_inst_reset_bfm to 'systema_inst_clk_bfm.clk'
+Warning: TB_Gen: systema_inst_reset_bfm is not associated to any clock; connecting systema_inst_reset_bfm to 'systema_inst_clk_bfm.clk'
+Info: add_connection systema_inst_clk_bfm.clk systema_inst_reset_bfm.clk
+Info: get_instance_interface_property systema_inst reset CLASS_NAME
+Info: get_instance_interfaces systema_inst_reset_bfm
+Info: get_instance_interface_property systema_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property systema_inst_reset_bfm reset CLASS_NAME
+Info: add_connection systema_inst_reset_bfm.reset systema_inst.reset
+Info: get_instance_interface_property systema_inst btn_op CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: btn_op
+Info: TB_Gen: conduit_end found: btn_op
+Info: get_instance_interface_property systema_inst btn_op CLASS_NAME
+Info: add_instance systema_inst_btn_op_bfm altera_conduit_bfm 
+Info: get_instance_property systema_inst_btn_op_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value systema_inst btn_op associatedClock
+Info: get_instance_interface_parameter_value systema_inst btn_op associatedReset
+Info: get_instance_interface_ports systema_inst btn_op
+Info: get_instance_interface_port_property systema_inst btn_op btn_op_export ROLE
+Info: get_instance_interface_port_property systema_inst btn_op btn_op_export WIDTH
+Info: get_instance_interface_port_property systema_inst btn_op btn_op_export DIRECTION
+Info: set_instance_parameter_value systema_inst_btn_op_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value systema_inst_btn_op_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value systema_inst_btn_op_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value systema_inst_btn_op_bfm SIGNAL_WIDTHS 2
+Info: set_instance_parameter_value systema_inst_btn_op_bfm SIGNAL_DIRECTIONS output
+Info: get_instance_property systema_inst_btn_op_bfm CLASS_NAME
+Info: get_instance_interface_property systema_inst btn_op CLASS_NAME
+Info: get_instance_interfaces systema_inst_btn_op_bfm
+Info: get_instance_interface_property systema_inst_btn_op_bfm conduit CLASS_NAME
+Info: add_connection systema_inst_btn_op_bfm.conduit systema_inst.btn_op
+Info: get_instance_interface_property systema_inst button_mode CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: button_mode
+Info: TB_Gen: conduit_end found: button_mode
+Info: get_instance_interface_property systema_inst button_mode CLASS_NAME
+Info: add_instance systema_inst_button_mode_bfm altera_conduit_bfm 
+Info: get_instance_property systema_inst_button_mode_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value systema_inst button_mode associatedClock
+Info: get_instance_interface_parameter_value systema_inst button_mode associatedReset
+Info: get_instance_interface_ports systema_inst button_mode
+Info: get_instance_interface_port_property systema_inst button_mode button_mode_export ROLE
+Info: get_instance_interface_port_property systema_inst button_mode button_mode_export WIDTH
+Info: get_instance_interface_port_property systema_inst button_mode button_mode_export DIRECTION
+Info: set_instance_parameter_value systema_inst_button_mode_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value systema_inst_button_mode_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_WIDTHS 2
+Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_DIRECTIONS output
+Info: get_instance_property systema_inst_button_mode_bfm CLASS_NAME
+Info: get_instance_interface_property systema_inst button_mode CLASS_NAME
+Info: get_instance_interfaces systema_inst_button_mode_bfm
+Info: get_instance_interface_property systema_inst_button_mode_bfm conduit CLASS_NAME
+Info: add_connection systema_inst_button_mode_bfm.conduit systema_inst.button_mode
+Info: send_message Info TB_Gen: Saving testbench system: systema_tb.qsys
+Info: TB_Gen: Saving testbench system: systema_tb.qsys
+Info: save_system systema_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb.qsys
+Info: Done
+Info: qsys-generate D:\fmuri\Documents\TEC\XI\Embebidos\systema.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=D:\fmuri\Documents\TEC\XI\Embebidos\systema\testbench\systema_tb\simulation --family="Cyclone V" --part=5CEBA2F17A7
+Progress: Loading testbench/systema_tb.qsys
+Progress: Reading input file
+Progress: Adding systema_inst [systema 1.0]
+Progress: Parameterizing module systema_inst
+Progress: Adding systema_inst_btn_op_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module systema_inst_btn_op_bfm
+Progress: Adding systema_inst_button_mode_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module systema_inst_button_mode_bfm
+Progress: Adding systema_inst_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module systema_inst_clk_bfm
+Progress: Adding systema_inst_reset_bfm [altera_avalon_reset_source 18.1]
+Progress: Parameterizing module systema_inst_reset_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: systema_tb.systema_inst.UART: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: systema_tb.systema_inst.btn_mode: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: systema_tb.systema_inst.btn_op: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: systema_tb.systema_inst_clk_bfm: Elaborate: altera_clock_source
+Info: systema_tb.systema_inst_clk_bfm:            $Revision: #1 $
+Info: systema_tb.systema_inst_clk_bfm:            $Date: 2018/07/18 $
+Info: systema_tb.systema_inst_reset_bfm: Elaborate: altera_reset_source
+Info: systema_tb.systema_inst_reset_bfm:            $Revision: #1 $
+Info: systema_tb.systema_inst_reset_bfm:            $Date: 2018/07/18 $
+Info: systema_tb.systema_inst_reset_bfm: Reset is negatively asserted.
+Info: systema_tb: Generating systema_tb "systema_tb" for SIM_VERILOG
+Info: systema_inst: "systema_tb" instantiated systema "systema_inst"
+Info: systema_inst_btn_op_bfm: "systema_tb" instantiated altera_conduit_bfm "systema_inst_btn_op_bfm"
+Info: systema_inst_clk_bfm: "systema_tb" instantiated altera_avalon_clock_source "systema_inst_clk_bfm"
+Info: Reusing file D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/verbosity_pkg.sv
+Info: systema_inst_reset_bfm: "systema_tb" instantiated altera_avalon_reset_source "systema_inst_reset_bfm"
+Info: Reusing file D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/verbosity_pkg.sv
+Info: CPU: "systema_inst" instantiated altera_nios2_gen2 "CPU"
+Info: RAM: Starting RTL generation for module 'systema_RAM'
+Info: RAM:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=systema_RAM --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0033_RAM_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0033_RAM_gen//systema_RAM_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0033_RAM_gen/  ]
+Info: RAM: Done RTL generation for module 'systema_RAM'
+Info: RAM: "systema_inst" instantiated altera_avalon_onchip_memory2 "RAM"
+Info: UART: Starting RTL generation for module 'systema_UART'
+Info: UART:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=systema_UART --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0034_UART_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0034_UART_gen//systema_UART_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0034_UART_gen/  ]
+Info: UART: Done RTL generation for module 'systema_UART'
+Info: UART: "systema_inst" instantiated altera_avalon_jtag_uart "UART"
+Info: btn_mode: Starting RTL generation for module 'systema_btn_mode'
+Info: btn_mode:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=systema_btn_mode --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0035_btn_mode_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0035_btn_mode_gen//systema_btn_mode_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0035_btn_mode_gen/  ]
+Info: btn_mode: Done RTL generation for module 'systema_btn_mode'
+Info: btn_mode: "systema_inst" instantiated altera_avalon_pio "btn_mode"
+Info: btn_op: Starting RTL generation for module 'systema_btn_op'
+Info: btn_op:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=systema_btn_op --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0036_btn_op_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0036_btn_op_gen//systema_btn_op_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0036_btn_op_gen/  ]
+Info: btn_op: Done RTL generation for module 'systema_btn_op'
+Info: btn_op: "systema_inst" instantiated altera_avalon_pio "btn_op"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "systema_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "systema_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "systema_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'systema_CPU_cpu'
+Info: cpu:   Generation command is [exec D:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I D:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=systema_CPU_cpu --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0039_cpu_gen/ --quartus_bindir=D:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0039_cpu_gen//systema_CPU_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0039_cpu_gen/  ]
+Info: cpu: # 2020.06.07 21:51:30 (*) Starting Nios II generation
+Info: cpu: # 2020.06.07 21:51:30 (*)   Checking for plaintext license.
+Info: cpu: # 2020.06.07 21:51:30 (*)   Couldn't query license setup in Quartus directory D:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2020.06.07 21:51:30 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2020.06.07 21:51:30 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2020.06.07 21:51:30 (*)   Plaintext license not found.
+Info: cpu: # 2020.06.07 21:51:30 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.06.07 21:51:30 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.06.07 21:51:30 (*)   Creating all objects for CPU
+Info: cpu: # 2020.06.07 21:51:32 (*)   Creating 'D:/fmuri/TMP/alt8421_7354252906799104442.dir/0039_cpu_gen//systema_CPU_cpu_nios2_waves.do'
+Info: cpu: # 2020.06.07 21:51:32 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.06.07 21:51:32 (*)   Creating plain-text RTL
+Info: cpu: # 2020.06.07 21:51:33 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'systema_CPU_cpu'
+Info: cpu: "CPU" instantiated altera_nios2_gen2_unit "cpu"
+Info: CPU_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "CPU_data_master_translator"
+Info: UART_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "UART_avalon_jtag_slave_translator"
+Info: CPU_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "CPU_data_master_agent"
+Info: UART_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "UART_avalon_jtag_slave_agent"
+Info: UART_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "UART_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: systema_tb: Done "systema_tb" with 33 modules, 54 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=D:\fmuri\Documents\TEC\XI\Embebidos\systema_tb.spd --output-directory=D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\fmuri\Documents\TEC\XI\Embebidos\systema_tb.spd --output-directory=D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	33 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system

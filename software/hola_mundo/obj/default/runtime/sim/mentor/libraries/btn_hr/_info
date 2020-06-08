@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/fmuri/Documents/TEC/XI/Embebidos/software/hola_mundo/obj/default/runtime/sim/mentor
+vsystema_btn_hr
+!s110 1591580940
+!i10b 1
+!s100 zhSjc6f<jFL;3fgfJgPa[2
+IEI;g[oMS@bcRY1Ng@C]A`2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1591580779
+8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_hr.v
+FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_hr.v
+L0 21
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1591580940.000000
+!s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_hr.v|
+!s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_hr.v|-work|btn_hr|
+!i113 1
+o-work btn_hr
+tCvgOpt 0
