@@ -186,6 +186,10 @@
    type="VERILOG"
    library="mm_interconnect_0" />
  <file
+   path="systema/testbench/systema_tb/simulation/submodules/systema_timer_0.v"
+   type="VERILOG"
+   library="timer_0" />
+ <file
    path="systema/testbench/systema_tb/simulation/submodules/systema_input_btns.v"
    type="VERILOG"
    library="input_btns" />

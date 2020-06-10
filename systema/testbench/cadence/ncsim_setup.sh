@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2020.06.09.18:50:55
+# ACDS 18.1 625 win32 2020.06.09.20:07:41
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script
@@ -106,7 +106,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2020.06.09.18:50:55
+# ACDS 18.1 625 win32 2020.06.09.20:07:41
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="systema_tb"
@@ -170,6 +170,7 @@ mkdir -p ./libraries/cpu/
 mkdir -p ./libraries/rst_controller/
 mkdir -p ./libraries/irq_mapper/
 mkdir -p ./libraries/mm_interconnect_0/
+mkdir -p ./libraries/timer_0/
 mkdir -p ./libraries/input_btns/
 mkdir -p ./libraries/UART/
 mkdir -p ./libraries/RAM/
@@ -256,6 +257,7 @@ if [ $SKIP_COM -eq 0 ]; then
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/systema_tb/simulation/submodules/altera_reset_synchronizer.v"                                    -work rst_controller                        -cdslib ./cds_libs/rst_controller.cds.lib                       
   ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/systema_tb/simulation/submodules/systema_irq_mapper.sv"                                          -work irq_mapper                            -cdslib ./cds_libs/irq_mapper.cds.lib                           
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/systema_tb/simulation/submodules/systema_mm_interconnect_0.v"                                    -work mm_interconnect_0                     -cdslib ./cds_libs/mm_interconnect_0.cds.lib                    
+  ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/systema_tb/simulation/submodules/systema_timer_0.v"                                              -work timer_0                               -cdslib ./cds_libs/timer_0.cds.lib                              
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/systema_tb/simulation/submodules/systema_input_btns.v"                                           -work input_btns                            -cdslib ./cds_libs/input_btns.cds.lib                           
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/systema_tb/simulation/submodules/systema_UART.v"                                                 -work UART                                  -cdslib ./cds_libs/UART.cds.lib                                 
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/systema_tb/simulation/submodules/systema_RAM.v"                                                  -work RAM                                   -cdslib ./cds_libs/RAM.cds.lib                                  

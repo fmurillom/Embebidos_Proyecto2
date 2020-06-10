@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/fmuri/Documents/TEC/XI/Embebidos/software/smart_clock/obj/default/runtime/sim/mentor
+vsystema_UART
+Z1 !s110 1591831065
+!i10b 1
+!s100 kiBFR8R6PPFQ;aI`6jn?O3
+IKo?ZQgj2]50lCOXlbUfzE2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1591754826
+Z4 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v
+Z5 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1591831064.000000
+Z8 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v|
+Z9 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v|-work|UART|
+!i113 1
+Z10 o-work UART
+Z11 tCvgOpt 0
+nsystema_@u@a@r@t
+vsystema_UART_scfifo_r
+R1
+!i10b 1
+!s100 YBoHChIO>_M`K[8M]Z?gl0
+I@Mg8GNh3b7;J?4nT>8nf62
+R2
+R0
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nsystema_@u@a@r@t_scfifo_r
+vsystema_UART_scfifo_w
+R1
+!i10b 1
+!s100 nLBo9XaCDRnA=KnHgTmgW0
+I6Mg0mVcN^ecIC8_@ZFCKk2
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nsystema_@u@a@r@t_scfifo_w
+vsystema_UART_sim_scfifo_r
+R1
+!i10b 1
+!s100 Mi97K>=f1zodV5EfdX5z:1
+I=^3m:RVc<lezX;0kmK@GH1
+R2
+R0
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nsystema_@u@a@r@t_sim_scfifo_r
+vsystema_UART_sim_scfifo_w
+R1
+!i10b 1
+!s100 f^<fN8Rd<:JRk1<TNU=ai3
+ILKbUW4nPaQSz4S7kZ=iY72
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nsystema_@u@a@r@t_sim_scfifo_w
