@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2020.06.07.21:54:23
+# ACDS 18.1 625 win32 2020.06.09.16:57:15
 
 # ----------------------------------------
 # Initialize variables
@@ -226,10 +226,8 @@ ensure_lib                                       ./libraries/irq_mapper/
 vmap       irq_mapper                            ./libraries/irq_mapper/                           
 ensure_lib                                       ./libraries/mm_interconnect_0/                    
 vmap       mm_interconnect_0                     ./libraries/mm_interconnect_0/                    
-ensure_lib                                       ./libraries/btn_op/                               
-vmap       btn_op                                ./libraries/btn_op/                               
-ensure_lib                                       ./libraries/btn_mode/                             
-vmap       btn_mode                              ./libraries/btn_mode/                             
+ensure_lib                                       ./libraries/input_btns/                           
+vmap       input_btns                            ./libraries/input_btns/                           
 ensure_lib                                       ./libraries/UART/                                 
 vmap       UART                                  ./libraries/UART/                                 
 ensure_lib                                       ./libraries/RAM/                                  
@@ -240,8 +238,8 @@ ensure_lib                                       ./libraries/systema_inst_reset_
 vmap       systema_inst_reset_bfm                ./libraries/systema_inst_reset_bfm/               
 ensure_lib                                       ./libraries/systema_inst_clk_bfm/                 
 vmap       systema_inst_clk_bfm                  ./libraries/systema_inst_clk_bfm/                 
-ensure_lib                                       ./libraries/systema_inst_btn_op_bfm/              
-vmap       systema_inst_btn_op_bfm               ./libraries/systema_inst_btn_op_bfm/              
+ensure_lib                                       ./libraries/systema_inst_button_mode_bfm/         
+vmap       systema_inst_button_mode_bfm          ./libraries/systema_inst_button_mode_bfm/         
 ensure_lib                                       ./libraries/systema_inst/                         
 vmap       systema_inst                          ./libraries/systema_inst/                         
 
@@ -303,14 +301,13 @@ alias com {
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_synchronizer.v"                                                                 -work rst_controller                       
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_irq_mapper.sv"                                          -L altera_common_sv_packages -work irq_mapper                           
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0.v"                                                                 -work mm_interconnect_0                    
-  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_op.v"                                                                            -work btn_op                               
-  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_mode.v"                                                                          -work btn_mode                             
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_input_btns.v"                                                                        -work input_btns                           
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v"                                                                              -work UART                                 
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_RAM.v"                                                                               -work RAM                                  
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v"                                                                               -work CPU                                  
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_avalon_reset_source.sv"                                  -L altera_common_sv_packages -work systema_inst_reset_bfm               
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_avalon_clock_source.sv"                                  -L altera_common_sv_packages -work systema_inst_clk_bfm                 
-  eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_conduit_bfm.sv"                                          -L altera_common_sv_packages -work systema_inst_btn_op_bfm              
+  eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_conduit_bfm.sv"                                          -L altera_common_sv_packages -work systema_inst_button_mode_bfm         
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v"                                                                                   -work systema_inst                         
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/systema_tb.v"                                                                                                                                      
 }
@@ -319,14 +316,14 @@ alias com {
 # Elaborate top level design
 alias elab {
   echo "\[exec\] elab"
-  eval vsim -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_003 -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L UART_avalon_jtag_slave_agent_rsp_fifo -L UART_avalon_jtag_slave_agent -L CPU_data_master_agent -L UART_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L btn_op -L btn_mode -L UART -L RAM -L CPU -L systema_inst_reset_bfm -L systema_inst_clk_bfm -L systema_inst_btn_op_bfm -L systema_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver $TOP_LEVEL_NAME
+  eval vsim -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_003 -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L UART_avalon_jtag_slave_agent_rsp_fifo -L UART_avalon_jtag_slave_agent -L CPU_data_master_agent -L UART_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L input_btns -L UART -L RAM -L CPU -L systema_inst_reset_bfm -L systema_inst_clk_bfm -L systema_inst_button_mode_bfm -L systema_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------
 # Elaborate the top level design with novopt option
 alias elab_debug {
   echo "\[exec\] elab_debug"
-  eval vsim -novopt -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_003 -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L UART_avalon_jtag_slave_agent_rsp_fifo -L UART_avalon_jtag_slave_agent -L CPU_data_master_agent -L UART_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L btn_op -L btn_mode -L UART -L RAM -L CPU -L systema_inst_reset_bfm -L systema_inst_clk_bfm -L systema_inst_btn_op_bfm -L systema_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver $TOP_LEVEL_NAME
+  eval vsim -novopt -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_003 -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L UART_avalon_jtag_slave_agent_rsp_fifo -L UART_avalon_jtag_slave_agent -L CPU_data_master_agent -L UART_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L input_btns -L UART -L RAM -L CPU -L systema_inst_reset_bfm -L systema_inst_clk_bfm -L systema_inst_button_mode_bfm -L systema_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------

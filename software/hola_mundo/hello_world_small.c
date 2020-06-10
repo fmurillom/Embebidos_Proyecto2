@@ -86,32 +86,26 @@
 
 
 void io_button(void * context);
-
-void io_button_op(void * context);
-
-
-
 void io_button_setup();
-void io_button_setup2();
+
 
 
 
 volatile int edge_val = 0;
 
-volatile unsigned char * reg_mode = (unsigned char*)0x5010;
+volatile unsigned char * btn_irq = (unsigned char*)0x5008;
+volatile unsigned char * btn_edge = (unsigned char*)0x500C;
+volatile unsigned char * btn_data = (unsigned char*)0x5000;
+
 
 int mode = 0;
-
 
 int main(void)
 { 
   alt_putstr("Hello from Nios II!\n");
 
+
   io_button_setup();
-  io_button_setup2();
-
-
-
 
   /* Event loop never exits. */
   while (1){
@@ -126,72 +120,42 @@ int main(void)
 }
 
 void io_button_setup(){
-	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(BTN_MODE_BASE, 0xf);
-
-	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(BTN_MODE_BASE, 0x00);
+	* btn_irq = 15;
+	* btn_edge = 0;
 
 	void * edge_val_ptr;
 
-	edge_val_ptr = (void *) &edge_val;
+	edge_val_ptr = (void *) edge_val;
 
-	alt_ic_isr_register(BTN_MODE_IRQ_INTERRUPT_CONTROLLER_ID,
-			BTN_MODE_IRQ,
+	alt_ic_irq_enable(0,1);
+
+	alt_ic_isr_register(0,
+			1,
 			io_button,
 			edge_val_ptr,
 			0x00);
 }
 
-void io_button_setup2(){
-	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(BTN_OP_BASE, 0xf);
-
-	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(BTN_OP_BASE, 0x00);
-
-	void * edge_val_ptr;
-
-	edge_val_ptr = (void *) &edge_val;
-
-	alt_ic_isr_register(BTN_OP_IRQ_INTERRUPT_CONTROLLER_ID,
-			BTN_OP_IRQ,
-			io_button_op,
-			edge_val_ptr,
-			0x00);
-}
 
 void io_button(void * context){
 	volatile int * edge_ptr;
 	edge_ptr = (volatile int *) context;
 
-	*edge_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(BTN_MODE_BASE);
-
-	  if(edge_val & 0x01){
-	  	alt_putstr("Interruption Mode\n");
+	 if(*btn_data == 0x01){
 	  	mode = mode + 1;
 	  	if(mode == 3){
 	  		mode = 0;
 	  	}
 	  }
-	  else if(edge_val & 0x02){
-	  	  	alt_putstr("Interruption Min\n");
+	  else if(*btn_data == 0x02){
+		  alt_putstr("Interruption Min\n");
+	  }
+	  else if(*btn_data == 0x03){
+		  alt_putstr("Interruption Hr\n");
+	  }
+	  else if(*btn_data == 0x04){
+		  alt_putstr("Interruption Alarm\n");
 	  }
 
-	 * reg_mode = 0x0;
-
-
-	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(BTN_MODE_BASE, 0);
-}
-
-void io_button_op(void * context){
-	volatile int * edge_ptr;
-	edge_ptr = (volatile int *) context;
-
-	*edge_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(BTN_OP_BASE);
-
-	  if(edge_val & 0x01){
-	  	alt_putstr("Interruption Hour\n");
-	  }
-	  else if(edge_val & 0x02){
-	  	  	alt_putstr("Interruption Alarm\n");
-	  }
-
-	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(BTN_OP_BASE, 0);
+	  *btn_edge = 0x0;
 }

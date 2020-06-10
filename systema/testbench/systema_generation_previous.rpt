@@ -11,14 +11,14 @@ Progress: Adding RAM [altera_avalon_onchip_memory2 18.1]
 Progress: Parameterizing module RAM
 Progress: Adding UART [altera_avalon_jtag_uart 18.1]
 Progress: Parameterizing module UART
-Progress: Adding btn_mode [altera_avalon_pio 18.1]
-Progress: Parameterizing module btn_mode
+Progress: Adding input_btns [altera_avalon_pio 18.1]
+Progress: Parameterizing module input_btns
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
 Info: systema.UART: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
-Info: systema.btn_mode: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: systema.input_btns: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
 Info: qsys-generate succeeded.
 Info: Loading IP catalog for testbench.
 Progress: 
@@ -28,25 +28,25 @@ Progress: (2) searching D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_com
 Info: Reading index D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx
 Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
 Info: Reading index D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx
-Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
-Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.01 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.01 seconds
 Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/ip/**/* matched 0 files in 0.00 seconds
 Info: Reading index D:\fmuri\Documents\TEC\XI\Embebidos\systema\testbench\systema.ipx
 Progress: Loading Embebidos/systema.qsys
-Info: D:/fmuri/Documents/TEC/XI/Embebidos/* matched 8 files in 0.00 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/* matched 9 files in 0.00 seconds
 Info: D:/fmuri/Documents/TEC/XI/Embebidos/ip/**/* matched 0 files in 0.00 seconds
-Info: D:/fmuri/Documents/TEC/XI/Embebidos/*/* matched 21 files in 0.00 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/*/* matched 22 files in 0.00 seconds
 Info: D:\fmuri\Documents\TEC\XI\Embebidos\systema\testbench\systema.ipx described 0 plugins, 3 paths, in 0.01 seconds
 Progress: Loading testbench/systema_tb.qsys
-Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/* matched 12 files in 0.02 seconds
+Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/* matched 12 files in 0.03 seconds
 Info: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/*/* matched 9 files in 0.00 seconds
 Info: C:/Users/fmuri/.altera.quartus/ip/18.1/**/* matched 0 files in 0.00 seconds
 Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
 Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
 Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
 Info: Reading index D:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
-Info: D:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0.16 seconds
-Info: D:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0.16 seconds
+Info: D:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0.17 seconds
+Info: D:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0.17 seconds
 Info: D:/intelfpga_lite/ip/**/* matched 0 files in 0.00 seconds
 Info: Reading index D:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
 Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0.01 seconds
@@ -55,8 +55,8 @@ Info: Reading index D:\intelfpga_lite\18.1\quartus\common\librarian\factories\in
 Info: D:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
 Info: D:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
 Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
-Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.20 seconds
-Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.20 seconds
+Info: D:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.24 seconds
+Info: D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.24 seconds
 Progress: 
 Progress: 
 Progress: 
@@ -69,8 +69,8 @@ Info: TB_Gen: System design is: systema
 Info: get_interfaces 
 Info: get_connections 
 Info: get_interface_property button_mode EXPORT_OF
-Info: get_instance_property btn_mode CLASS_NAME
-Info: get_instance_assignment btn_mode testbench.partner.map.external_connection
+Info: get_instance_property input_btns CLASS_NAME
+Info: get_instance_assignment input_btns testbench.partner.map.external_connection
 Info: get_interface_property clk EXPORT_OF
 Info: get_instance_property CLK CLASS_NAME
 Info: get_instance_assignment CLK testbench.partner.map.clk_in
@@ -142,7 +142,7 @@ Info: get_instance_interface_port_property systema_inst button_mode button_mode_
 Info: set_instance_parameter_value systema_inst_button_mode_bfm CLOCKED_SIGNAL 0
 Info: set_instance_parameter_value systema_inst_button_mode_bfm ENABLE_RESET 0
 Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_ROLES export
-Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_WIDTHS 2
+Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_WIDTHS 4
 Info: set_instance_parameter_value systema_inst_button_mode_bfm SIGNAL_DIRECTIONS output
 Info: get_instance_property systema_inst_button_mode_bfm CLASS_NAME
 Info: get_instance_interface_property systema_inst button_mode CLASS_NAME
@@ -172,7 +172,7 @@ Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
 Info: systema_tb.systema_inst.UART: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
-Info: systema_tb.systema_inst.btn_mode: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: systema_tb.systema_inst.input_btns: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
 Info: systema_tb.systema_inst_clk_bfm: Elaborate: altera_clock_source
 Info: systema_tb.systema_inst_clk_bfm:            $Revision: #1 $
 Info: systema_tb.systema_inst_clk_bfm:            $Date: 2018/07/18 $
@@ -189,17 +189,17 @@ Info: systema_inst_reset_bfm: "systema_tb" instantiated altera_avalon_reset_sour
 Info: Reusing file D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/verbosity_pkg.sv
 Info: CPU: "systema_inst" instantiated altera_nios2_gen2 "CPU"
 Info: RAM: Starting RTL generation for module 'systema_RAM'
-Info: RAM:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=systema_RAM --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0005_RAM_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0005_RAM_gen//systema_RAM_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0005_RAM_gen/  ]
+Info: RAM:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=systema_RAM --dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0005_RAM_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0005_RAM_gen//systema_RAM_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0005_RAM_gen/  ]
 Info: RAM: Done RTL generation for module 'systema_RAM'
 Info: RAM: "systema_inst" instantiated altera_avalon_onchip_memory2 "RAM"
 Info: UART: Starting RTL generation for module 'systema_UART'
-Info: UART:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=systema_UART --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0006_UART_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0006_UART_gen//systema_UART_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0006_UART_gen/  ]
+Info: UART:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=systema_UART --dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0006_UART_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0006_UART_gen//systema_UART_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0006_UART_gen/  ]
 Info: UART: Done RTL generation for module 'systema_UART'
 Info: UART: "systema_inst" instantiated altera_avalon_jtag_uart "UART"
-Info: btn_mode: Starting RTL generation for module 'systema_btn_mode'
-Info: btn_mode:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=systema_btn_mode --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0007_btn_mode_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0007_btn_mode_gen//systema_btn_mode_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0007_btn_mode_gen/  ]
-Info: btn_mode: Done RTL generation for module 'systema_btn_mode'
-Info: btn_mode: "systema_inst" instantiated altera_avalon_pio "btn_mode"
+Info: input_btns: Starting RTL generation for module 'systema_input_btns'
+Info: input_btns:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=systema_input_btns --dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0007_input_btns_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0007_input_btns_gen//systema_input_btns_component_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0007_input_btns_gen/  ]
+Info: input_btns: Done RTL generation for module 'systema_input_btns'
+Info: input_btns: "systema_inst" instantiated altera_avalon_pio "input_btns"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
@@ -208,20 +208,20 @@ Info: mm_interconnect_0: "systema_inst" instantiated altera_mm_interconnect "mm_
 Info: irq_mapper: "systema_inst" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "systema_inst" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'systema_CPU_cpu'
-Info: cpu:   Generation command is [exec D:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I D:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=systema_CPU_cpu --dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0010_cpu_gen/ --quartus_bindir=D:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0010_cpu_gen//systema_CPU_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8421_7354252906799104442.dir/0010_cpu_gen/  ]
-Info: cpu: # 2020.06.07 21:45:40 (*) Starting Nios II generation
-Info: cpu: # 2020.06.07 21:45:40 (*)   Checking for plaintext license.
-Info: cpu: # 2020.06.07 21:45:42 (*)   Couldn't query license setup in Quartus directory D:/intelFPGA_lite/18.1/quartus/bin64/
-Info: cpu: # 2020.06.07 21:45:42 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2020.06.07 21:45:42 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2020.06.07 21:45:42 (*)   Plaintext license not found.
-Info: cpu: # 2020.06.07 21:45:42 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2020.06.07 21:45:42 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2020.06.07 21:45:42 (*)   Creating all objects for CPU
-Info: cpu: # 2020.06.07 21:45:43 (*)   Creating 'D:/fmuri/TMP/alt8421_7354252906799104442.dir/0010_cpu_gen//systema_CPU_cpu_nios2_waves.do'
-Info: cpu: # 2020.06.07 21:45:43 (*)   Generating RTL from CPU objects
-Info: cpu: # 2020.06.07 21:45:43 (*)   Creating plain-text RTL
-Info: cpu: # 2020.06.07 21:45:44 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec D:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I D:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=systema_CPU_cpu --dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0010_cpu_gen/ --quartus_bindir=D:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0010_cpu_gen//systema_CPU_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=D:/fmuri/TMP/alt8422_8441060889240233868.dir/0010_cpu_gen/  ]
+Info: cpu: # 2020.06.09 16:21:28 (*) Starting Nios II generation
+Info: cpu: # 2020.06.09 16:21:28 (*)   Checking for plaintext license.
+Info: cpu: # 2020.06.09 16:21:30 (*)   Couldn't query license setup in Quartus directory D:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2020.06.09 16:21:30 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2020.06.09 16:21:30 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2020.06.09 16:21:30 (*)   Plaintext license not found.
+Info: cpu: # 2020.06.09 16:21:30 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.06.09 16:21:30 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.06.09 16:21:30 (*)   Creating all objects for CPU
+Info: cpu: # 2020.06.09 16:21:31 (*)   Creating 'D:/fmuri/TMP/alt8422_8441060889240233868.dir/0010_cpu_gen//systema_CPU_cpu_nios2_waves.do'
+Info: cpu: # 2020.06.09 16:21:31 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.06.09 16:21:31 (*)   Creating plain-text RTL
+Info: cpu: # 2020.06.09 16:21:32 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'systema_CPU_cpu'
 Info: cpu: "CPU" instantiated altera_nios2_gen2_unit "cpu"
 Info: CPU_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "CPU_data_master_translator"

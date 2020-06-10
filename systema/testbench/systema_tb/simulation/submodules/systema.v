@@ -4,8 +4,7 @@
 
 `timescale 1 ps / 1 ps
 module systema (
-		input  wire [1:0] btn_op_export,      //      btn_op.export
-		input  wire [1:0] button_mode_export, // button_mode.export
+		input  wire [3:0] button_mode_export, // button_mode.export
 		input  wire       clk_clk,            //         clk.clk
 		input  wire       reset_reset_n       //       reset.reset_n
 	);
@@ -44,21 +43,15 @@ module systema (
 	wire         mm_interconnect_0_ram_s1_write;                       // mm_interconnect_0:RAM_s1_write -> RAM:write
 	wire  [31:0] mm_interconnect_0_ram_s1_writedata;                   // mm_interconnect_0:RAM_s1_writedata -> RAM:writedata
 	wire         mm_interconnect_0_ram_s1_clken;                       // mm_interconnect_0:RAM_s1_clken -> RAM:clken
-	wire         mm_interconnect_0_btn_mode_s1_chipselect;             // mm_interconnect_0:btn_mode_s1_chipselect -> btn_mode:chipselect
-	wire  [31:0] mm_interconnect_0_btn_mode_s1_readdata;               // btn_mode:readdata -> mm_interconnect_0:btn_mode_s1_readdata
-	wire   [1:0] mm_interconnect_0_btn_mode_s1_address;                // mm_interconnect_0:btn_mode_s1_address -> btn_mode:address
-	wire         mm_interconnect_0_btn_mode_s1_write;                  // mm_interconnect_0:btn_mode_s1_write -> btn_mode:write_n
-	wire  [31:0] mm_interconnect_0_btn_mode_s1_writedata;              // mm_interconnect_0:btn_mode_s1_writedata -> btn_mode:writedata
-	wire         mm_interconnect_0_btn_op_s1_chipselect;               // mm_interconnect_0:btn_op_s1_chipselect -> btn_op:chipselect
-	wire  [31:0] mm_interconnect_0_btn_op_s1_readdata;                 // btn_op:readdata -> mm_interconnect_0:btn_op_s1_readdata
-	wire   [1:0] mm_interconnect_0_btn_op_s1_address;                  // mm_interconnect_0:btn_op_s1_address -> btn_op:address
-	wire         mm_interconnect_0_btn_op_s1_write;                    // mm_interconnect_0:btn_op_s1_write -> btn_op:write_n
-	wire  [31:0] mm_interconnect_0_btn_op_s1_writedata;                // mm_interconnect_0:btn_op_s1_writedata -> btn_op:writedata
+	wire         mm_interconnect_0_input_btns_s1_chipselect;           // mm_interconnect_0:input_btns_s1_chipselect -> input_btns:chipselect
+	wire  [31:0] mm_interconnect_0_input_btns_s1_readdata;             // input_btns:readdata -> mm_interconnect_0:input_btns_s1_readdata
+	wire   [1:0] mm_interconnect_0_input_btns_s1_address;              // mm_interconnect_0:input_btns_s1_address -> input_btns:address
+	wire         mm_interconnect_0_input_btns_s1_write;                // mm_interconnect_0:input_btns_s1_write -> input_btns:write_n
+	wire  [31:0] mm_interconnect_0_input_btns_s1_writedata;            // mm_interconnect_0:input_btns_s1_writedata -> input_btns:writedata
 	wire         irq_mapper_receiver0_irq;                             // UART:av_irq -> irq_mapper:receiver0_irq
-	wire         irq_mapper_receiver1_irq;                             // btn_mode:irq -> irq_mapper:receiver1_irq
-	wire         irq_mapper_receiver2_irq;                             // btn_op:irq -> irq_mapper:receiver2_irq
+	wire         irq_mapper_receiver1_irq;                             // input_btns:irq -> irq_mapper:receiver1_irq
 	wire  [31:0] cpu_irq_irq;                                          // irq_mapper:sender_irq -> CPU:irq
-	wire         rst_controller_reset_out_reset;                       // rst_controller:reset_out -> [CPU:reset_n, RAM:reset, UART:rst_n, btn_mode:reset_n, btn_op:reset_n, irq_mapper:reset, mm_interconnect_0:CPU_reset_reset_bridge_in_reset_reset, rst_translator:in_reset]
+	wire         rst_controller_reset_out_reset;                       // rst_controller:reset_out -> [CPU:reset_n, RAM:reset, UART:rst_n, input_btns:reset_n, irq_mapper:reset, mm_interconnect_0:CPU_reset_reset_bridge_in_reset_reset, rst_translator:in_reset]
 	wire         rst_controller_reset_out_reset_req;                   // rst_controller:reset_req -> [CPU:reset_req, RAM:reset_req, rst_translator:reset_req_in]
 
 	systema_CPU cpu (
@@ -117,28 +110,16 @@ module systema (
 		.av_irq         (irq_mapper_receiver0_irq)                              //               irq.irq
 	);
 
-	systema_btn_mode btn_mode (
-		.clk        (clk_clk),                                  //                 clk.clk
-		.reset_n    (~rst_controller_reset_out_reset),          //               reset.reset_n
-		.address    (mm_interconnect_0_btn_mode_s1_address),    //                  s1.address
-		.write_n    (~mm_interconnect_0_btn_mode_s1_write),     //                    .write_n
-		.writedata  (mm_interconnect_0_btn_mode_s1_writedata),  //                    .writedata
-		.chipselect (mm_interconnect_0_btn_mode_s1_chipselect), //                    .chipselect
-		.readdata   (mm_interconnect_0_btn_mode_s1_readdata),   //                    .readdata
-		.in_port    (button_mode_export),                       // external_connection.export
-		.irq        (irq_mapper_receiver1_irq)                  //                 irq.irq
-	);
-
-	systema_btn_op btn_op (
-		.clk        (clk_clk),                                //                 clk.clk
-		.reset_n    (~rst_controller_reset_out_reset),        //               reset.reset_n
-		.address    (mm_interconnect_0_btn_op_s1_address),    //                  s1.address
-		.write_n    (~mm_interconnect_0_btn_op_s1_write),     //                    .write_n
-		.writedata  (mm_interconnect_0_btn_op_s1_writedata),  //                    .writedata
-		.chipselect (mm_interconnect_0_btn_op_s1_chipselect), //                    .chipselect
-		.readdata   (mm_interconnect_0_btn_op_s1_readdata),   //                    .readdata
-		.in_port    (btn_op_export),                          // external_connection.export
-		.irq        (irq_mapper_receiver2_irq)                //                 irq.irq
+	systema_input_btns input_btns (
+		.clk        (clk_clk),                                    //                 clk.clk
+		.reset_n    (~rst_controller_reset_out_reset),            //               reset.reset_n
+		.address    (mm_interconnect_0_input_btns_s1_address),    //                  s1.address
+		.write_n    (~mm_interconnect_0_input_btns_s1_write),     //                    .write_n
+		.writedata  (mm_interconnect_0_input_btns_s1_writedata),  //                    .writedata
+		.chipselect (mm_interconnect_0_input_btns_s1_chipselect), //                    .chipselect
+		.readdata   (mm_interconnect_0_input_btns_s1_readdata),   //                    .readdata
+		.in_port    (button_mode_export),                         // external_connection.export
+		.irq        (irq_mapper_receiver1_irq)                    //                 irq.irq
 	);
 
 	systema_mm_interconnect_0 mm_interconnect_0 (
@@ -156,16 +137,6 @@ module systema (
 		.CPU_instruction_master_waitrequest    (cpu_instruction_master_waitrequest),                   //                                .waitrequest
 		.CPU_instruction_master_read           (cpu_instruction_master_read),                          //                                .read
 		.CPU_instruction_master_readdata       (cpu_instruction_master_readdata),                      //                                .readdata
-		.btn_mode_s1_address                   (mm_interconnect_0_btn_mode_s1_address),                //                     btn_mode_s1.address
-		.btn_mode_s1_write                     (mm_interconnect_0_btn_mode_s1_write),                  //                                .write
-		.btn_mode_s1_readdata                  (mm_interconnect_0_btn_mode_s1_readdata),               //                                .readdata
-		.btn_mode_s1_writedata                 (mm_interconnect_0_btn_mode_s1_writedata),              //                                .writedata
-		.btn_mode_s1_chipselect                (mm_interconnect_0_btn_mode_s1_chipselect),             //                                .chipselect
-		.btn_op_s1_address                     (mm_interconnect_0_btn_op_s1_address),                  //                       btn_op_s1.address
-		.btn_op_s1_write                       (mm_interconnect_0_btn_op_s1_write),                    //                                .write
-		.btn_op_s1_readdata                    (mm_interconnect_0_btn_op_s1_readdata),                 //                                .readdata
-		.btn_op_s1_writedata                   (mm_interconnect_0_btn_op_s1_writedata),                //                                .writedata
-		.btn_op_s1_chipselect                  (mm_interconnect_0_btn_op_s1_chipselect),               //                                .chipselect
 		.CPU_debug_mem_slave_address           (mm_interconnect_0_cpu_debug_mem_slave_address),        //             CPU_debug_mem_slave.address
 		.CPU_debug_mem_slave_write             (mm_interconnect_0_cpu_debug_mem_slave_write),          //                                .write
 		.CPU_debug_mem_slave_read              (mm_interconnect_0_cpu_debug_mem_slave_read),           //                                .read
@@ -174,6 +145,11 @@ module systema (
 		.CPU_debug_mem_slave_byteenable        (mm_interconnect_0_cpu_debug_mem_slave_byteenable),     //                                .byteenable
 		.CPU_debug_mem_slave_waitrequest       (mm_interconnect_0_cpu_debug_mem_slave_waitrequest),    //                                .waitrequest
 		.CPU_debug_mem_slave_debugaccess       (mm_interconnect_0_cpu_debug_mem_slave_debugaccess),    //                                .debugaccess
+		.input_btns_s1_address                 (mm_interconnect_0_input_btns_s1_address),              //                   input_btns_s1.address
+		.input_btns_s1_write                   (mm_interconnect_0_input_btns_s1_write),                //                                .write
+		.input_btns_s1_readdata                (mm_interconnect_0_input_btns_s1_readdata),             //                                .readdata
+		.input_btns_s1_writedata               (mm_interconnect_0_input_btns_s1_writedata),            //                                .writedata
+		.input_btns_s1_chipselect              (mm_interconnect_0_input_btns_s1_chipselect),           //                                .chipselect
 		.RAM_s1_address                        (mm_interconnect_0_ram_s1_address),                     //                          RAM_s1.address
 		.RAM_s1_write                          (mm_interconnect_0_ram_s1_write),                       //                                .write
 		.RAM_s1_readdata                       (mm_interconnect_0_ram_s1_readdata),                    //                                .readdata
@@ -195,7 +171,6 @@ module systema (
 		.reset         (rst_controller_reset_out_reset), // clk_reset.reset
 		.receiver0_irq (irq_mapper_receiver0_irq),       // receiver0.irq
 		.receiver1_irq (irq_mapper_receiver1_irq),       // receiver1.irq
-		.receiver2_irq (irq_mapper_receiver2_irq),       // receiver2.irq
 		.sender_irq    (cpu_irq_irq)                     //    sender.irq
 	);
 

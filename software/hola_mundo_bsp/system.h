@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU' in SOPC Builder design 'systema'
  * SOPC Builder design path: ../../systema.sopcinfo
  *
- * Generated: Sun Jun 07 21:52:10 CST 2020
+ * Generated: Tue Jun 09 18:51:45 CST 2020
  */
 
 /*
@@ -184,19 +184,19 @@
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/UART"
-#define ALT_STDERR_BASE 0x5028
+#define ALT_STDERR_BASE 0x5018
 #define ALT_STDERR_DEV UART
 #define ALT_STDERR_IS_JTAG_UART
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDIN "/dev/UART"
-#define ALT_STDIN_BASE 0x5028
+#define ALT_STDIN_BASE 0x5018
 #define ALT_STDIN_DEV UART
 #define ALT_STDIN_IS_JTAG_UART
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDOUT "/dev/UART"
-#define ALT_STDOUT_BASE 0x5028
+#define ALT_STDOUT_BASE 0x5018
 #define ALT_STDOUT_DEV UART
 #define ALT_STDOUT_IS_JTAG_UART
 #define ALT_STDOUT_PRESENT
@@ -210,7 +210,7 @@
  */
 
 #define ALT_MODULE_CLASS_UART altera_avalon_jtag_uart
-#define UART_BASE 0x5028
+#define UART_BASE 0x5018
 #define UART_IRQ 0
 #define UART_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define UART_NAME "/dev/UART"
@@ -223,60 +223,6 @@
 
 
 /*
- * btn_mode configuration
- *
- */
-
-#define ALT_MODULE_CLASS_btn_mode altera_avalon_pio
-#define BTN_MODE_BASE 0x5010
-#define BTN_MODE_BIT_CLEARING_EDGE_REGISTER 0
-#define BTN_MODE_BIT_MODIFYING_OUTPUT_REGISTER 0
-#define BTN_MODE_CAPTURE 1
-#define BTN_MODE_DATA_WIDTH 2
-#define BTN_MODE_DO_TEST_BENCH_WIRING 0
-#define BTN_MODE_DRIVEN_SIM_VALUE 0
-#define BTN_MODE_EDGE_TYPE "RISING"
-#define BTN_MODE_FREQ 50000000
-#define BTN_MODE_HAS_IN 1
-#define BTN_MODE_HAS_OUT 0
-#define BTN_MODE_HAS_TRI 0
-#define BTN_MODE_IRQ 1
-#define BTN_MODE_IRQ_INTERRUPT_CONTROLLER_ID 0
-#define BTN_MODE_IRQ_TYPE "EDGE"
-#define BTN_MODE_NAME "/dev/btn_mode"
-#define BTN_MODE_RESET_VALUE 0
-#define BTN_MODE_SPAN 16
-#define BTN_MODE_TYPE "altera_avalon_pio"
-
-
-/*
- * btn_op configuration
- *
- */
-
-#define ALT_MODULE_CLASS_btn_op altera_avalon_pio
-#define BTN_OP_BASE 0x5000
-#define BTN_OP_BIT_CLEARING_EDGE_REGISTER 0
-#define BTN_OP_BIT_MODIFYING_OUTPUT_REGISTER 0
-#define BTN_OP_CAPTURE 1
-#define BTN_OP_DATA_WIDTH 2
-#define BTN_OP_DO_TEST_BENCH_WIRING 0
-#define BTN_OP_DRIVEN_SIM_VALUE 0
-#define BTN_OP_EDGE_TYPE "RISING"
-#define BTN_OP_FREQ 50000000
-#define BTN_OP_HAS_IN 1
-#define BTN_OP_HAS_OUT 0
-#define BTN_OP_HAS_TRI 0
-#define BTN_OP_IRQ 2
-#define BTN_OP_IRQ_INTERRUPT_CONTROLLER_ID 0
-#define BTN_OP_IRQ_TYPE "LEVEL"
-#define BTN_OP_NAME "/dev/btn_op"
-#define BTN_OP_RESET_VALUE 0
-#define BTN_OP_SPAN 16
-#define BTN_OP_TYPE "altera_avalon_pio"
-
-
-/*
  * hal configuration
  *
  */
@@ -285,5 +231,32 @@
 #define ALT_MAX_FD 4
 #define ALT_SYS_CLK none
 #define ALT_TIMESTAMP_CLK none
+
+
+/*
+ * input_btns configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_input_btns altera_avalon_pio
+#define INPUT_BTNS_BASE 0x5000
+#define INPUT_BTNS_BIT_CLEARING_EDGE_REGISTER 0
+#define INPUT_BTNS_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define INPUT_BTNS_CAPTURE 1
+#define INPUT_BTNS_DATA_WIDTH 4
+#define INPUT_BTNS_DO_TEST_BENCH_WIRING 0
+#define INPUT_BTNS_DRIVEN_SIM_VALUE 0
+#define INPUT_BTNS_EDGE_TYPE "RISING"
+#define INPUT_BTNS_FREQ 50000000
+#define INPUT_BTNS_HAS_IN 1
+#define INPUT_BTNS_HAS_OUT 0
+#define INPUT_BTNS_HAS_TRI 0
+#define INPUT_BTNS_IRQ 1
+#define INPUT_BTNS_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define INPUT_BTNS_IRQ_TYPE "EDGE"
+#define INPUT_BTNS_NAME "/dev/input_btns"
+#define INPUT_BTNS_RESET_VALUE 0
+#define INPUT_BTNS_SPAN 16
+#define INPUT_BTNS_TYPE "altera_avalon_pio"
 
 #endif /* __SYSTEM_H_ */

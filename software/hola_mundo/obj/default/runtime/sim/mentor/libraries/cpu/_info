@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/fmuri/Documents/TEC/XI/Embebidos/software/hola_mundo/obj/default/runtime/sim/mentor
 vsystema_CPU
-!s110 1591590369
+!s110 1591752792
 !i10b 1
 !s100 1COkC_IUQDDH4@bm7`6VA2
 IIA`K=`0YYHKdWS6U1_U6Q1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1591588268
+w1591750217
 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v
 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v
 L0 9
@@ -23,7 +23,7 @@ Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1591590369.000000
+!s108 1591752792.000000
 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v|
 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v|-work|CPU|
 !i113 1
@@ -31,13 +31,13 @@ o-work CPU
 Z3 tCvgOpt 0
 nsystema_@c@p@u
 vsystema_CPU_cpu
-Z4 !s110 1591590366
+Z4 !s110 1591752789
 !i10b 1
-!s100 M5kdV=4oN8OGVefO:e;503
-IOELUNm?baN=WGDJ=31I642
+!s100 bKZjnSKEefPO=M7lha^@^0
+IGVW6Ahi9aURnTXimCW?>n1
 R1
 R0
-Z5 w1591588293
+Z5 w1591750250
 Z6 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v
 Z7 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v
 L0 2834
@@ -45,7 +45,7 @@ R2
 r1
 !s85 0
 31
-Z8 !s108 1591590366.000000
+Z8 !s108 1591752789.000000
 Z9 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v|
 Z10 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v|-work|cpu|
 !i113 1
@@ -53,7 +53,7 @@ Z11 o-work cpu
 R3
 nsystema_@c@p@u_cpu
 vsystema_CPU_cpu_debug_slave_sysclk
-Z12 !s110 1591590367
+R4
 !i10b 1
 !s100 4Mf6WKc<W7PC3Xo9FVnQk0
 IcF_Ld]YjF@:DV?3_9Xz033
@@ -62,12 +62,12 @@ R0
 R5
 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v
 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v
-Z13 L0 21
+Z12 L0 21
 R2
 r1
 !s85 0
 31
-Z14 !s108 1591590367.000000
+R8
 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v|
 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v|-work|cpu|
 !i113 1
@@ -75,7 +75,7 @@ R11
 R3
 nsystema_@c@p@u_cpu_debug_slave_sysclk
 vsystema_CPU_cpu_debug_slave_tck
-R12
+Z13 !s110 1591752790
 !i10b 1
 !s100 ;OfhHE4HI6@ceWk4_lhRk2
 IWF5P6nA7@dfR6H@>`jMiR0
@@ -84,12 +84,12 @@ R0
 R5
 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v
 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v
-R13
+R12
 R2
 r1
 !s85 0
 31
-R14
+Z14 !s108 1591752790.000000
 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v|
 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v|-work|cpu|
 !i113 1
@@ -97,7 +97,7 @@ R11
 R3
 nsystema_@c@p@u_cpu_debug_slave_tck
 vsystema_CPU_cpu_debug_slave_wrapper
-R12
+R13
 !i10b 1
 !s100 iJ4QeS31ZZ3?`hLZPbc0;3
 ILa<R0eR^H2VUP6^aeLk<A3
@@ -106,7 +106,7 @@ R0
 R5
 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v
 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v
-R13
+R12
 R2
 r1
 !s85 0
@@ -121,8 +121,8 @@ nsystema_@c@p@u_cpu_debug_slave_wrapper
 vsystema_CPU_cpu_nios2_avalon_reg
 R4
 !i10b 1
-!s100 @b?oM3AIc4OzPZa7h15W53
-IQGT[`C7IY1DfXmc@32?]O3
+!s100 H_2EkmBznk@EzI<UEX5>d3
+ImkIX8m_Ncze:eTAn=@[L>3
 R1
 R0
 R5
@@ -524,7 +524,7 @@ R0
 R5
 R6
 R7
-R13
+R12
 R2
 r1
 !s85 0
@@ -559,7 +559,7 @@ R11
 R3
 nsystema_@c@p@u_cpu_register_bank_b_module
 vsystema_CPU_cpu_test_bench
-R12
+R13
 !i10b 1
 !s100 QOnFXBg_0heKPA7d0;DXS2
 IU`WL4PU:4EQRW:A]6XK^?2
@@ -568,7 +568,7 @@ R0
 R5
 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v
 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v
-R13
+R12
 R2
 r1
 !s85 0

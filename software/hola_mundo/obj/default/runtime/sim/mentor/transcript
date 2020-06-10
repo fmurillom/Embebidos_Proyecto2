@@ -43,195 +43,195 @@
 # [exec] dev_com
 # [exec] com
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:01 on Jun 07,2020
+# Start time: 19:33:04 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
 # -- Compiling package verbosity_pkg
 # 
 # Top level modules:
 # 	--none--
-# End time: 22:26:01 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:04 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:02 on Jun 07,2020
+# Start time: 19:33:05 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
 # -- Compiling module systema_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_avalon_st_adapter_error_adapter_0
-# End time: 22:26:02 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:05 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:02 on Jun 07,2020
+# Start time: 19:33:05 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
 # -- Compiling module systema_mm_interconnect_0_avalon_st_adapter
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_avalon_st_adapter
-# End time: 22:26:02 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:05 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:02 on Jun 07,2020
+# Start time: 19:33:05 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
 # -- Compiling module systema_mm_interconnect_0_rsp_mux_001
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_rsp_mux_001
-# End time: 22:26:02 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:05 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:02 on Jun 07,2020
+# Start time: 19:33:05 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 22:26:02 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:05 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:02 on Jun 07,2020
+# Start time: 19:33:05 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
 # -- Compiling module systema_mm_interconnect_0_rsp_mux
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_rsp_mux
-# End time: 22:26:02 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:05 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:02 on Jun 07,2020
+# Start time: 19:33:05 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 22:26:03 on Jun 07,2020, Elapsed time: 0:00:01
+# End time: 19:33:06 on Jun 09,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:03 on Jun 07,2020
+# Start time: 19:33:06 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_rsp_demux_003.sv -L altera_common_sv_packages -work rsp_demux_003 
 # -- Compiling module systema_mm_interconnect_0_rsp_demux_003
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_rsp_demux_003
-# End time: 22:26:03 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:06 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:03 on Jun 07,2020
+# Start time: 19:33:06 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
 # -- Compiling module systema_mm_interconnect_0_rsp_demux
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_rsp_demux
-# End time: 22:26:03 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:06 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:03 on Jun 07,2020
+# Start time: 19:33:06 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_cmd_mux_003.sv -L altera_common_sv_packages -work cmd_mux_003 
 # -- Compiling module systema_mm_interconnect_0_cmd_mux_003
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_cmd_mux_003
-# End time: 22:26:03 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:06 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:03 on Jun 07,2020
+# Start time: 19:33:06 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_003 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 22:26:03 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:06 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:03 on Jun 07,2020
+# Start time: 19:33:06 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
 # -- Compiling module systema_mm_interconnect_0_cmd_mux
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_cmd_mux
-# End time: 22:26:03 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:06 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:04 on Jun 07,2020
+# Start time: 19:33:06 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 22:26:04 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:07 on Jun 09,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:04 on Jun 07,2020
+# Start time: 19:33:07 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
 # -- Compiling module systema_mm_interconnect_0_cmd_demux_001
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_cmd_demux_001
-# End time: 22:26:04 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:07 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:04 on Jun 07,2020
+# Start time: 19:33:07 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
 # -- Compiling module systema_mm_interconnect_0_cmd_demux
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_cmd_demux
-# End time: 22:26:04 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:07 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:04 on Jun 07,2020
+# Start time: 19:33:07 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_router_005.sv -L altera_common_sv_packages -work router_005 
 # -- Compiling module systema_mm_interconnect_0_router_005_default_decode
 # -- Compiling module systema_mm_interconnect_0_router_005
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_router_005
-# End time: 22:26:04 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:07 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:04 on Jun 07,2020
+# Start time: 19:33:07 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
 # -- Compiling module systema_mm_interconnect_0_router_002_default_decode
 # -- Compiling module systema_mm_interconnect_0_router_002
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_router_002
-# End time: 22:26:04 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:07 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:04 on Jun 07,2020
+# Start time: 19:33:07 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
 # -- Compiling module systema_mm_interconnect_0_router_001_default_decode
 # -- Compiling module systema_mm_interconnect_0_router_001
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_router_001
-# End time: 22:26:05 on Jun 07,2020, Elapsed time: 0:00:01
+# End time: 19:33:07 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:05 on Jun 07,2020
+# Start time: 19:33:07 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
 # -- Compiling module systema_mm_interconnect_0_router_default_decode
 # -- Compiling module systema_mm_interconnect_0_router
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0_router
-# End time: 22:26:05 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:08 on Jun 09,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:05 on Jun 07,2020
+# Start time: 19:33:08 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_avalon_sc_fifo.v -work UART_avalon_jtag_slave_agent_rsp_fifo 
 # -- Compiling module altera_avalon_sc_fifo
 # 
 # Top level modules:
 # 	altera_avalon_sc_fifo
-# End time: 22:26:05 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:08 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:05 on Jun 07,2020
+# Start time: 19:33:08 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work UART_avalon_jtag_slave_agent 
 # -- Compiling module altera_merlin_slave_agent
 # ** Warning: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
@@ -247,46 +247,46 @@
 # 
 # Top level modules:
 # 	altera_merlin_slave_agent
-# End time: 22:26:05 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:08 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:05 on Jun 07,2020
+# Start time: 19:33:08 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work UART_avalon_jtag_slave_agent 
 # -- Compiling module altera_merlin_burst_uncompressor
 # 
 # Top level modules:
 # 	altera_merlin_burst_uncompressor
-# End time: 22:26:05 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:08 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:05 on Jun 07,2020
+# Start time: 19:33:08 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work CPU_data_master_agent 
 # -- Compiling module altera_merlin_master_agent
 # 
 # Top level modules:
 # 	altera_merlin_master_agent
-# End time: 22:26:06 on Jun 07,2020, Elapsed time: 0:00:01
+# End time: 19:33:08 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:06 on Jun 07,2020
+# Start time: 19:33:08 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work UART_avalon_jtag_slave_translator 
 # -- Compiling module altera_merlin_slave_translator
 # 
 # Top level modules:
 # 	altera_merlin_slave_translator
-# End time: 22:26:06 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:09 on Jun 09,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:06 on Jun 07,2020
+# Start time: 19:33:09 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work CPU_data_master_translator 
 # -- Compiling module altera_merlin_master_translator
 # 
 # Top level modules:
 # 	altera_merlin_master_translator
-# End time: 22:26:06 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:09 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:06 on Jun 07,2020
+# Start time: 19:33:09 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu.v -work cpu 
 # -- Compiling module systema_CPU_cpu_register_bank_a_module
 # -- Compiling module systema_CPU_cpu_register_bank_b_module
@@ -313,100 +313,91 @@
 # Top level modules:
 # 	systema_CPU_cpu_nios2_performance_monitors
 # 	systema_CPU_cpu
-# End time: 22:26:06 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:09 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:09 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_sysclk.v -work cpu 
 # -- Compiling module systema_CPU_cpu_debug_slave_sysclk
 # 
 # Top level modules:
 # 	systema_CPU_cpu_debug_slave_sysclk
-# End time: 22:26:07 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:09 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:10 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_tck.v -work cpu 
 # -- Compiling module systema_CPU_cpu_debug_slave_tck
 # 
 # Top level modules:
 # 	systema_CPU_cpu_debug_slave_tck
-# End time: 22:26:07 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:10 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:10 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_debug_slave_wrapper.v -work cpu 
 # -- Compiling module systema_CPU_cpu_debug_slave_wrapper
 # 
 # Top level modules:
 # 	systema_CPU_cpu_debug_slave_wrapper
-# End time: 22:26:07 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:10 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:10 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU_cpu_test_bench.v -work cpu 
 # -- Compiling module systema_CPU_cpu_test_bench
 # 
 # Top level modules:
 # 	systema_CPU_cpu_test_bench
-# End time: 22:26:07 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:10 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:10 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
 # -- Compiling module altera_reset_controller
 # 
 # Top level modules:
 # 	altera_reset_controller
-# End time: 22:26:07 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:10 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:10 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
 # -- Compiling module altera_reset_synchronizer
 # 
 # Top level modules:
 # 	altera_reset_synchronizer
-# End time: 22:26:07 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:10 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:07 on Jun 07,2020
+# Start time: 19:33:11 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
 # -- Compiling module systema_irq_mapper
 # 
 # Top level modules:
 # 	systema_irq_mapper
-# End time: 22:26:08 on Jun 07,2020, Elapsed time: 0:00:01
+# End time: 19:33:11 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:08 on Jun 07,2020
+# Start time: 19:33:11 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_mm_interconnect_0.v -work mm_interconnect_0 
 # -- Compiling module systema_mm_interconnect_0
 # 
 # Top level modules:
 # 	systema_mm_interconnect_0
-# End time: 22:26:08 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:11 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:08 on Jun 07,2020
-# vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_op.v -work btn_op 
-# -- Compiling module systema_btn_op
+# Start time: 19:33:11 on Jun 09,2020
+# vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_input_btns.v -work input_btns 
+# -- Compiling module systema_input_btns
 # 
 # Top level modules:
-# 	systema_btn_op
-# End time: 22:26:08 on Jun 07,2020, Elapsed time: 0:00:00
+# 	systema_input_btns
+# End time: 19:33:11 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:08 on Jun 07,2020
-# vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_btn_mode.v -work btn_mode 
-# -- Compiling module systema_btn_mode
-# 
-# Top level modules:
-# 	systema_btn_mode
-# End time: 22:26:08 on Jun 07,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:08 on Jun 07,2020
+# Start time: 19:33:11 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v -work UART 
 # -- Compiling module systema_UART_sim_scfifo_w
 # -- Compiling module systema_UART_scfifo_w
@@ -416,77 +407,77 @@
 # 
 # Top level modules:
 # 	systema_UART
-# End time: 22:26:08 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:12 on Jun 09,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:08 on Jun 07,2020
+# Start time: 19:33:12 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_RAM.v -work RAM 
 # -- Compiling module systema_RAM
 # 
 # Top level modules:
 # 	systema_RAM
-# End time: 22:26:09 on Jun 07,2020, Elapsed time: 0:00:01
+# End time: 19:33:12 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:09 on Jun 07,2020
+# Start time: 19:33:12 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_CPU.v -work CPU 
 # -- Compiling module systema_CPU
 # 
 # Top level modules:
 # 	systema_CPU
-# End time: 22:26:09 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:12 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:09 on Jun 07,2020
+# Start time: 19:33:12 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work systema_inst_reset_bfm 
 # -- Compiling module altera_avalon_reset_source
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_avalon_reset_source
-# End time: 22:26:09 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:12 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:09 on Jun 07,2020
+# Start time: 19:33:12 on Jun 09,2020
 # vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work systema_inst_clk_bfm 
 # -- Compiling module altera_avalon_clock_source
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_avalon_clock_source
-# End time: 22:26:09 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:12 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:09 on Jun 07,2020
-# vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work systema_inst_btn_op_bfm 
+# Start time: 19:33:12 on Jun 09,2020
+# vlog -reportprogress 300 -sv D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work systema_inst_button_mode_bfm 
 # -- Compiling module altera_conduit_bfm
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_conduit_bfm
-# End time: 22:26:09 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:12 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:09 on Jun 07,2020
+# Start time: 19:33:13 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v -work systema_inst 
 # -- Compiling module systema
 # 
 # Top level modules:
 # 	systema
-# End time: 22:26:09 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:13 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:26:10 on Jun 07,2020
+# Start time: 19:33:13 on Jun 09,2020
 # vlog -reportprogress 300 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/systema_tb.v 
 # -- Compiling module systema_tb
 # 
 # Top level modules:
 # 	systema_tb
-# End time: 22:26:10 on Jun 07,2020, Elapsed time: 0:00:00
+# End time: 19:33:13 on Jun 09,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # [exec] elab
-# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_003 -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L UART_avalon_jtag_slave_agent_rsp_fifo -L UART_avalon_jtag_slave_agent -L CPU_data_master_agent -L UART_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L btn_op -L btn_mode -L UART -L RAM -L CPU -L systema_inst_reset_bfm -L systema_inst_clk_bfm -L systema_inst_btn_op_bfm -L systema_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver systema_tb 
-# Start time: 22:26:10 on Jun 07,2020
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_003 -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L UART_avalon_jtag_slave_agent_rsp_fifo -L UART_avalon_jtag_slave_agent -L CPU_data_master_agent -L UART_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L input_btns -L UART -L RAM -L CPU -L systema_inst_reset_bfm -L systema_inst_clk_bfm -L systema_inst_button_mode_bfm -L systema_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver systema_tb 
+# Start time: 19:33:13 on Jun 09,2020
 # Loading work.systema_tb
 # Loading systema_inst.systema
 # Loading CPU.systema_CPU
@@ -522,8 +513,7 @@
 # Loading UART.systema_UART_sim_scfifo_w
 # Loading UART.systema_UART_scfifo_r
 # Loading UART.systema_UART_sim_scfifo_r
-# Loading btn_mode.systema_btn_mode
-# Loading btn_op.systema_btn_op
+# Loading input_btns.systema_input_btns
 # Loading mm_interconnect_0.systema_mm_interconnect_0
 # Loading sv_std.std
 # Loading CPU_data_master_translator.altera_merlin_master_translator
@@ -559,7 +549,7 @@
 # Loading irq_mapper.systema_irq_mapper
 # Loading rst_controller.altera_reset_controller
 # Loading altera_common_sv_packages.verbosity_pkg
-# Loading systema_inst_btn_op_bfm.altera_conduit_bfm
+# Loading systema_inst_button_mode_bfm.altera_conduit_bfm
 # Loading systema_inst_clk_bfm.altera_avalon_clock_source
 # Loading systema_inst_reset_bfm.altera_avalon_reset_source
 # Loading altera_mf_ver.altsyncram_body
@@ -643,20 +633,14 @@
 # ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
 # ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_RAM.v(60): [TFMPC] - Missing connection for port 'q_b'.
 # ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_RAM.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v(107): [TFMPC] - Too few port connections. Expected 12, found 10.
+# ** Warning: (vsim-3017) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v(100): [TFMPC] - Too few port connections. Expected 12, found 10.
 #    Time: 0 ps  Iteration: 0  Instance: /systema_tb/systema_inst/uart File: D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema_UART.v
-# ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v(107): [TFMPC] - Missing connection for port 'dataavailable'.
-# ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v(107): [TFMPC] - Missing connection for port 'readyfordata'.
-add wave -position end  sim:/systema_tb/systema_inst_btn_op_bfm_conduit_export
-add wave -position end  sim:/systema_tb/systema_inst_btn_op_bfm_conduit_export
+# ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v(100): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/systema.v(100): [TFMPC] - Missing connection for port 'readyfordata'.
 #  
-force -freeze sim:/systema_tb/systema_inst_btn_op_bfm_conduit_export 00 0
-force -freeze sim:/systema_tb/systema_inst_btn_op_bfm_conduit_export 00 0
-noforce sim:/systema_tb/systema_inst_btn_op_bfm_conduit_export
-force -freeze sim:/systema_tb/systema_inst_btn_op_bfm_conduit_export 00 0
 add wave -position end  sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 00 0
-run -all
+force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 0000 0
+run 2ms
 # Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
 # Time: 0  Instance: systema_tb.systema_inst.cpu.cpu.the_systema_CPU_cpu_nios2_oci.the_systema_CPU_cpu_nios2_ocimem.systema_CPU_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
 # Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
@@ -675,102 +659,93 @@ run -all
 #                    0: INFO: systema_tb.systema_inst_reset_bfm.reset_assert: Reset asserted
 #               990000: INFO: systema_tb.systema_inst_reset_bfm.reset_deassert: Reset deasserted
 # Hello from Nios II!
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 01 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 0001 0
+# 0
 # Interruption Mode
+# 0
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
+force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 0000 0
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
+# 1
 # Set Alarm Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 00 0
+# 1
 # Set Alarm Mode
-Set Alarm Mod# e
+# 1
 # Set Alarm Mode
+# 1
+force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 0001 0
 # Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 01 0
-# Set Alarm Mode
+1# Interruption Mode
+# 
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 0000 0
+# 2
+# Set Time Mode
+run 2ms
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+# Set Time Mode
+# 2
+force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 0001 0
+# Set Time Mode
+# 2
 # Interruption Mode
-# Set Alarm Mode
 # Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 00 0
-# Set Time Mode
-Set # Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 01 0
-Set Time Mod# Interruption Mode
-# e
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 00 0
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 01 0
-# Interruption Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 00 0
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-# Set Alarm Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 01 0
-# Set Alarm Mode
-# Interruption Mode
-# Set Alarm Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 00 0
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-# Set Time Mode
-force -freeze sim:/systema_tb/systema_inst_button_mode_bfm_conduit_export 01 0
-# Set Time Mode
-Set Time Mo# Interruption Mode
-# de
-# End time: 22:28:40 on Jun 07,2020, Elapsed time: 0:02:30
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# 3
+# End time: 19:36:49 on Jun 09,2020, Elapsed time: 0:03:36
 # Errors: 0, Warnings: 75

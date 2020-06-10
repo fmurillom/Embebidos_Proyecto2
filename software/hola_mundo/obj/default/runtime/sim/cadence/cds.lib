@@ -33,14 +33,13 @@ DEFINE cpu                                   ./libraries/cpu/
 DEFINE rst_controller                        ./libraries/rst_controller/                       
 DEFINE irq_mapper                            ./libraries/irq_mapper/                           
 DEFINE mm_interconnect_0                     ./libraries/mm_interconnect_0/                    
-DEFINE btn_op                                ./libraries/btn_op/                               
-DEFINE btn_mode                              ./libraries/btn_mode/                             
+DEFINE input_btns                            ./libraries/input_btns/                           
 DEFINE UART                                  ./libraries/UART/                                 
 DEFINE RAM                                   ./libraries/RAM/                                  
 DEFINE CPU                                   ./libraries/CPU/                                  
 DEFINE systema_inst_reset_bfm                ./libraries/systema_inst_reset_bfm/               
 DEFINE systema_inst_clk_bfm                  ./libraries/systema_inst_clk_bfm/                 
-DEFINE systema_inst_btn_op_bfm               ./libraries/systema_inst_btn_op_bfm/              
+DEFINE systema_inst_button_mode_bfm          ./libraries/systema_inst_button_mode_bfm/         
 DEFINE systema_inst                          ./libraries/systema_inst/                         
 DEFINE altera_ver                            ./libraries/altera_ver/                           
 DEFINE lpm_ver                               ./libraries/lpm_ver/                              

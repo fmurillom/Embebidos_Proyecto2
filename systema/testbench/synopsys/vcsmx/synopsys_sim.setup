@@ -26,14 +26,13 @@ cpu:                                   ./libraries/cpu/
 rst_controller:                        ./libraries/rst_controller/                       
 irq_mapper:                            ./libraries/irq_mapper/                           
 mm_interconnect_0:                     ./libraries/mm_interconnect_0/                    
-btn_op:                                ./libraries/btn_op/                               
-btn_mode:                              ./libraries/btn_mode/                             
+input_btns:                            ./libraries/input_btns/                           
 UART:                                  ./libraries/UART/                                 
 RAM:                                   ./libraries/RAM/                                  
 CPU:                                   ./libraries/CPU/                                  
 systema_inst_reset_bfm:                ./libraries/systema_inst_reset_bfm/               
 systema_inst_clk_bfm:                  ./libraries/systema_inst_clk_bfm/                 
-systema_inst_btn_op_bfm:               ./libraries/systema_inst_btn_op_bfm/              
+systema_inst_button_mode_bfm:          ./libraries/systema_inst_button_mode_bfm/         
 systema_inst:                          ./libraries/systema_inst/                         
 altera_ver:                            ./libraries/altera_ver/                           
 lpm_ver:                               ./libraries/lpm_ver/                              

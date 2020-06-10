@@ -186,13 +186,9 @@
    type="VERILOG"
    library="mm_interconnect_0" />
  <file
-   path="systema/testbench/systema_tb/simulation/submodules/systema_btn_op.v"
+   path="systema/testbench/systema_tb/simulation/submodules/systema_input_btns.v"
    type="VERILOG"
-   library="btn_op" />
- <file
-   path="systema/testbench/systema_tb/simulation/submodules/systema_btn_mode.v"
-   type="VERILOG"
-   library="btn_mode" />
+   library="input_btns" />
  <file
    path="systema/testbench/systema_tb/simulation/submodules/systema_UART.v"
    type="VERILOG"
@@ -220,7 +216,7 @@
  <file
    path="systema/testbench/systema_tb/simulation/submodules/altera_conduit_bfm.sv"
    type="SYSTEM_VERILOG"
-   library="systema_inst_btn_op_bfm" />
+   library="systema_inst_button_mode_bfm" />
  <file
    path="systema/testbench/systema_tb/simulation/submodules/systema.v"
    type="VERILOG"

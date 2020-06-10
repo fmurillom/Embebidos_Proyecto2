@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/fmuri/Documents/TEC/XI/Embebidos/software/hola_mundo/obj/default/runtime/sim/mentor
 valtera_reset_controller
-Z1 !s110 1591590367
+Z1 !s110 1591752790
 !i10b 1
 !s100 z[H_hRO9gO=:^2E3_jWH03
 I58W=zge^]nI[21hlT>J_n1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1591588289
+Z3 w1591750236
 8D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_controller.v
 FD:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_controller.v
 L0 42
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1591590367.000000
+Z5 !s108 1591752790.000000
 !s107 D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_controller.v|
 !s90 -reportprogress|300|D:/fmuri/Documents/TEC/XI/Embebidos/systema/testbench/systema_tb/simulation/submodules/altera_reset_controller.v|-work|rst_controller|
 !i113 1
